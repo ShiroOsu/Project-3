@@ -1,0 +1,243 @@
+﻿
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+
+<head>
+
+<title>Dave Leip's Atlas of U.S. Presidential Elections - Data Graphs</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="robots" content="noindex, nofollow" />
+
+<link rel="stylesheet" type="text/css" href="../CSS/style_template.css" /><style type="text/css">
+
+div.bardem {
+
+background-image:url(../IMAGES/dembar.png);
+
+background-repeat: repeat-x;
+
+text-align:left;
+
+padding:2px, 0, 0, 0;
+
+margin:0;
+
+}
+
+div.barrep {
+
+background-image:url(../IMAGES/repbar.png);
+
+background-repeat: repeat-x;
+
+text-align:left;
+
+padding:2px, 0, 0, 0;
+
+margin:0;
+
+}
+
+div.barind {
+
+background-image:url(../IMAGES/indbar.png);
+
+background-repeat: repeat-x;
+
+text-align:left;
+
+padding:2px, 0, 0, 0;
+
+margin:0;
+
+}
+
+div.baroth {
+
+background-image:url(../IMAGES/othbar.png);
+
+background-repeat: repeat-x;
+
+text-align:left;
+
+padding:2px, 0, 0, 0;
+
+margin:0;
+
+}
+
+td {
+
+font-size:10pt;
+
+margin:0;
+
+}
+
+b {
+
+font-size:12pt;
+
+}
+
+td.per {
+
+text-align:right;
+
+width:50px;
+
+}
+
+td.dat {
+
+text-align:right;
+
+width:70px;
+
+}
+
+td.bar {
+
+width:300px;
+
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+
+<div class="menu" style="width:792px; font-weight:600;">
+
+
+
+<img id="leftbar" src="https://uselectionatlas.org/IMAGES/menubar_l.png" width="3" alt="" />
+
+<a class="menu" href="https://uselectionatlas.org" title="Atlas of U.S. Presidential Elections Home Page">Home</a>
+
+<img src="https://uselectionatlas.org/IMAGES/divider.png" alt="" />
+
+<a class="menu" href="https://uselectionatlas.org/2016.php" title="Election 2016">2016</a>
+
+<img src="https://uselectionatlas.org/IMAGES/divider.png" alt="" />
+
+<a class="menu" href="https://uselectionatlas.org/RESULTS/index.html" title="Presidential Election Results (Primary and General)">Election Results</a>
+
+<img src="https://uselectionatlas.org/IMAGES/divider.png" alt="" />
+
+<a class="menu" href="https://uselectionatlas.org/INFORMATION/index.php" title="Includes Articles, History, Process, and Law">Election Info</a>
+
+<img src="https://uselectionatlas.org/IMAGES/divider.png" alt="" />
+
+<a class="menu" href="https://uselectionatlas.org/WEBLOGS/dave" title="Atlas Weblogs">Weblog</a>
+
+<img src="https://uselectionatlas.org/IMAGES/divider.png" alt="" />
+
+<a class="menu" href="https://uselectionatlas.org/FORUM/index.php" title="Atlas Forum">Forum</a>
+
+<img src="https://uselectionatlas.org/IMAGES/divider.png" alt="" />
+
+<a class="menu" href="https://uselectionatlas.org/WIKI/" title="Atlas Wiki">Wiki</a>
+
+<img src="https://uselectionatlas.org/IMAGES/divider.png" alt="" />
+
+<a class="menu" href="https://uselectionatlas.org/BOTTOM/search.php" title="Search the Site">Search</a>
+
+<img src="https://uselectionatlas.org/IMAGES/divider.png" alt="" />
+
+<a class="menu" href="https://uselectionatlas.org/BOTTOM/email.php" title="Send me Email!">Email</a>
+
+<img src="https://uselectionatlas.org/IMAGES/divider.png" alt="" />
+
+<a class="menu" href="https://uselectionatlas.org/login.php" title="Login">Login</a>
+
+<img src="https://uselectionatlas.org/IMAGES/divider.png" alt="" />
+
+<a class="menu" href="https://uselectionatlas.org/BOTTOM/siteinfo.php" title="Site Information - FAQ, Awards, Statistics, My Atlas">Site Info</a>
+
+<img src="https://uselectionatlas.org/IMAGES/divider.png" alt="" />
+
+<a class="menu" href="https://uselectionatlas.org/BOTTOM/store.php" title="The Atlas Store">Store</a><img id="rightbar" src="https://uselectionatlas.org/IMAGES/menubar_r.png" width="3" alt="" />
+
+</div>
+
+<div class="header">2008 Presidential General Election Data Graphs - National - by State</div><div class="content"><div id="google"><span style="font-weight:normal;font-size:9pt;font-family:verdona;color:#333">Note: The Google advertisement links below may advocate political positions that this site does not endorse.</span>
+
+<script type="text/javascript"><!--
+
+google_ad_client = "pub-0109201992740905";
+
+google_ad_width = 728;
+
+google_ad_height = 90;
+
+google_ad_format = "728x90_as";
+
+google_ad_channel ="";
+
+google_ad_type = "text";
+
+google_color_border = "999999";
+
+google_color_bg = "F5F5F5";
+
+google_color_link = "555555";
+
+google_color_url = "000099";
+
+google_color_text = "111111";
+
+//--></script>
+
+<script type="text/javascript" src="https://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+
+</div>
+
+<table id="form" border="0" cellspacing="0">
+
+<tr><td id="goods"><img src="../USPRESIDENT/GENERAL/pe2008.png" alt="Map" /><br /><br /><div class="info"><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=1&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Alabama with Comparative Graphs'; return true"><b>Alabama</b></a></td><td class="cnd">Obama</td><td class="per">38.7&#37;</td><td class="dat">813,479</td><td class="bar"><div class="bardem" style="width:9.8%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">60.3&#37;</td><td class="dat">1,266,546</td><td><div class="barrep" style="width:15.3%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">0.9&#37;</td><td class="dat">19,794</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=2&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Alaska with Comparative Graphs'; return true"><b>Alaska</b></a></td><td class="cnd">Obama</td><td class="per">37.9&#37;</td><td class="dat">123,594</td><td class="bar"><div class="bardem" style="width:1.5%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">59.4&#37;</td><td class="dat">193,841</td><td><div class="barrep" style="width:2.3%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">2.7&#37;</td><td class="dat">8,762</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=4&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Arizona with Comparative Graphs'; return true"><b>Arizona</b></a></td><td class="cnd">Obama</td><td class="per">44.9&#37;</td><td class="dat">1,034,707</td><td class="bar"><div class="bardem" style="width:12.5%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">53.4&#37;</td><td class="dat">1,230,111</td><td><div class="barrep" style="width:14.9%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.7&#37;</td><td class="dat">39,020</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=5&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Arkansas with Comparative Graphs'; return true"><b>Arkansas</b></a></td><td class="cnd">Obama</td><td class="per">38.9&#37;</td><td class="dat">422,310</td><td class="bar"><div class="bardem" style="width:5.1%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">58.7&#37;</td><td class="dat">638,017</td><td><div class="barrep" style="width:7.7%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">2.4&#37;</td><td class="dat">26,290</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=6&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for California with Comparative Graphs'; return true"><b>California</b></a></td><td class="cnd">Obama</td><td class="per">60.9&#37;</td><td class="dat">8,274,473</td><td class="bar"><div class="bardem" style="width:100.0%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">36.9&#37;</td><td class="dat">5,011,781</td><td><div class="barrep" style="width:60.6%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">2.2&#37;</td><td class="dat">296,829</td><td><div class="baroth" style="width:3.6%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=8&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Colorado with Comparative Graphs'; return true"><b>Colorado</b></a></td><td class="cnd">Obama</td><td class="per">53.7&#37;</td><td class="dat">1,288,633</td><td class="bar"><div class="bardem" style="width:15.6%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">44.7&#37;</td><td class="dat">1,073,629</td><td><div class="barrep" style="width:13.0%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.6&#37;</td><td class="dat">39,200</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=9&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Connecticut with Comparative Graphs'; return true"><b>Connecticut</b></a></td><td class="cnd">Obama</td><td class="per">60.6&#37;</td><td class="dat">997,773</td><td class="bar"><div class="bardem" style="width:12.1%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">38.2&#37;</td><td class="dat">629,428</td><td><div class="barrep" style="width:7.6%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.2&#37;</td><td class="dat">19,592</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=10&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Delaware with Comparative Graphs'; return true"><b>Delaware</b></a></td><td class="cnd">Obama</td><td class="per">61.9&#37;</td><td class="dat">255,459</td><td class="bar"><div class="bardem" style="width:3.1%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">36.9&#37;</td><td class="dat">152,374</td><td><div class="barrep" style="width:1.8%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.2&#37;</td><td class="dat">4,783</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=11&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for District of Columbia with Comparative Graphs'; return true"><b>District of Columbia</b></a></td><td class="cnd">Obama</td><td class="per">92.5&#37;</td><td class="dat">245,800</td><td class="bar"><div class="bardem" style="width:3.0%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">6.5&#37;</td><td class="dat">17,367</td><td><div class="barrep" style="width:1.0%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.0&#37;</td><td class="dat">2,686</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=12&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Florida with Comparative Graphs'; return true"><b>Florida</b></a></td><td class="cnd">Obama</td><td class="per">50.9&#37;</td><td class="dat">4,282,367</td><td class="bar"><div class="bardem" style="width:51.8%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">48.1&#37;</td><td class="dat">4,046,219</td><td><div class="barrep" style="width:48.9%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.0&#37;</td><td class="dat">83,662</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=13&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Georgia with Comparative Graphs'; return true"><b>Georgia</b></a></td><td class="cnd">Obama</td><td class="per">46.9&#37;</td><td class="dat">1,844,123</td><td class="bar"><div class="bardem" style="width:22.3%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">52.1&#37;</td><td class="dat">2,048,759</td><td><div class="barrep" style="width:24.8%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.0&#37;</td><td class="dat">39,276</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=15&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Hawaii with Comparative Graphs'; return true"><b>Hawaii</b></a></td><td class="cnd">Obama</td><td class="per">71.8&#37;</td><td class="dat">325,871</td><td class="bar"><div class="bardem" style="width:3.9%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">26.6&#37;</td><td class="dat">120,566</td><td><div class="barrep" style="width:1.5%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.6&#37;</td><td class="dat">7,131</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=16&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Idaho with Comparative Graphs'; return true"><b>Idaho</b></a></td><td class="cnd">Obama</td><td class="per">35.9&#37;</td><td class="dat">236,440</td><td class="bar"><div class="bardem" style="width:2.9%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">61.2&#37;</td><td class="dat">403,012</td><td><div class="barrep" style="width:4.9%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">2.9&#37;</td><td class="dat">19,002</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=17&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Illinois with Comparative Graphs'; return true"><b>Illinois</b></a></td><td class="cnd">Obama</td><td class="per">61.8&#37;</td><td class="dat">3,419,348</td><td class="bar"><div class="bardem" style="width:41.3%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">36.7&#37;</td><td class="dat">2,031,179</td><td><div class="barrep" style="width:24.5%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.4&#37;</td><td class="dat">79,652</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=18&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Indiana with Comparative Graphs'; return true"><b>Indiana</b></a></td><td class="cnd">Obama</td><td class="per">49.8&#37;</td><td class="dat">1,374,039</td><td class="bar"><div class="bardem" style="width:16.6%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">48.8&#37;</td><td class="dat">1,345,648</td><td><div class="barrep" style="width:16.3%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.3&#37;</td><td class="dat">36,971</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=19&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Iowa with Comparative Graphs'; return true"><b>Iowa</b></a></td><td class="cnd">Obama</td><td class="per">53.9&#37;</td><td class="dat">828,940</td><td class="bar"><div class="bardem" style="width:10.0%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">44.4&#37;</td><td class="dat">682,379</td><td><div class="barrep" style="width:8.2%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.7&#37;</td><td class="dat">25,804</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=20&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Kansas with Comparative Graphs'; return true"><b>Kansas</b></a></td><td class="cnd">Obama</td><td class="per">41.6&#37;</td><td class="dat">514,765</td><td class="bar"><div class="bardem" style="width:6.2%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">56.5&#37;</td><td class="dat">699,655</td><td><div class="barrep" style="width:8.5%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">2.0&#37;</td><td class="dat">24,453</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=21&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Kentucky with Comparative Graphs'; return true"><b>Kentucky</b></a></td><td class="cnd">Obama</td><td class="per">41.1&#37;</td><td class="dat">751,985</td><td class="bar"><div class="bardem" style="width:9.1%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">57.4&#37;</td><td class="dat">1,048,462</td><td><div class="barrep" style="width:12.7%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.5&#37;</td><td class="dat">27,140</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=22&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Louisiana with Comparative Graphs'; return true"><b>Louisiana</b></a></td><td class="cnd">Obama</td><td class="per">39.9&#37;</td><td class="dat">782,989</td><td class="bar"><div class="bardem" style="width:9.5%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">58.6&#37;</td><td class="dat">1,148,275</td><td><div class="barrep" style="width:13.9%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.5&#37;</td><td class="dat">29,497</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=23&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Maine with Comparative Graphs'; return true"><b>Maine</b></a></td><td class="cnd">Obama</td><td class="per">57.7&#37;</td><td class="dat">421,923</td><td class="bar"><div class="bardem" style="width:5.1%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">40.4&#37;</td><td class="dat">295,273</td><td><div class="barrep" style="width:3.6%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.9&#37;</td><td class="dat">13,967</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=24&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Maryland with Comparative Graphs'; return true"><b>Maryland</b></a></td><td class="cnd">Obama</td><td class="per">61.9&#37;</td><td class="dat">1,629,467</td><td class="bar"><div class="bardem" style="width:19.7%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">36.5&#37;</td><td class="dat">959,862</td><td><div class="barrep" style="width:11.6%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.6&#37;</td><td class="dat">42,267</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=25&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Massachusetts with Comparative Graphs'; return true"><b>Massachusetts</b></a></td><td class="cnd">Obama</td><td class="per">61.8&#37;</td><td class="dat">1,904,098</td><td class="bar"><div class="bardem" style="width:23.0%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">36.0&#37;</td><td class="dat">1,108,854</td><td><div class="barrep" style="width:13.4%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">2.2&#37;</td><td class="dat">68,117</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=26&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Michigan with Comparative Graphs'; return true"><b>Michigan</b></a></td><td class="cnd">Obama</td><td class="per">57.3&#37;</td><td class="dat">2,872,579</td><td class="bar"><div class="bardem" style="width:34.7%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">40.9&#37;</td><td class="dat">2,048,639</td><td><div class="barrep" style="width:24.8%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.8&#37;</td><td class="dat">89,388</td><td><div class="baroth" style="width:1.1%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=27&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Minnesota with Comparative Graphs'; return true"><b>Minnesota</b></a></td><td class="cnd">Obama</td><td class="per">54.1&#37;</td><td class="dat">1,573,354</td><td class="bar"><div class="bardem" style="width:19.0%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">43.8&#37;</td><td class="dat">1,275,409</td><td><div class="barrep" style="width:15.4%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">2.1&#37;</td><td class="dat">61,606</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=28&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Mississippi with Comparative Graphs'; return true"><b>Mississippi</b></a></td><td class="cnd">Obama</td><td class="per">43.0&#37;</td><td class="dat">554,662</td><td class="bar"><div class="bardem" style="width:6.7%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">56.2&#37;</td><td class="dat">724,597</td><td><div class="barrep" style="width:8.8%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">0.8&#37;</td><td class="dat">10,680</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=29&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Missouri with Comparative Graphs'; return true"><b>Missouri</b></a></td><td class="cnd">Obama</td><td class="per">49.2&#37;</td><td class="dat">1,441,911</td><td class="bar"><div class="bardem" style="width:17.4%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">49.4&#37;</td><td class="dat">1,445,814</td><td><div class="barrep" style="width:17.5%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.4&#37;</td><td class="dat">41,386</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=30&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Montana with Comparative Graphs'; return true"><b>Montana</b></a></td><td class="cnd">Obama</td><td class="per">47.1&#37;</td><td class="dat">232,159</td><td class="bar"><div class="bardem" style="width:2.8%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">49.5&#37;</td><td class="dat">243,882</td><td><div class="barrep" style="width:2.9%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">3.4&#37;</td><td class="dat">16,709</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=31&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Nebraska with Comparative Graphs'; return true"><b>Nebraska</b></a></td><td class="cnd">Obama</td><td class="per">41.6&#37;</td><td class="dat">333,319</td><td class="bar"><div class="bardem" style="width:4.0%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">56.5&#37;</td><td class="dat">452,979</td><td><div class="barrep" style="width:5.5%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.9&#37;</td><td class="dat">14,983</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=32&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Nevada with Comparative Graphs'; return true"><b>Nevada</b></a></td><td class="cnd">Obama</td><td class="per">55.1&#37;</td><td class="dat">533,736</td><td class="bar"><div class="bardem" style="width:6.5%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">42.7&#37;</td><td class="dat">412,827</td><td><div class="barrep" style="width:5.0%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">2.2&#37;</td><td class="dat">21,285</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=33&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for New Hampshire with Comparative Graphs'; return true"><b>New Hampshire</b></a></td><td class="cnd">Obama</td><td class="per">54.1&#37;</td><td class="dat">384,826</td><td class="bar"><div class="bardem" style="width:4.7%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">44.5&#37;</td><td class="dat">316,534</td><td><div class="barrep" style="width:3.8%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.4&#37;</td><td class="dat">9,610</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=34&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for New Jersey with Comparative Graphs'; return true"><b>New Jersey</b></a></td><td class="cnd">Obama</td><td class="per">57.1&#37;</td><td class="dat">2,215,422</td><td class="bar"><div class="bardem" style="width:26.8%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">41.6&#37;</td><td class="dat">1,613,207</td><td><div class="barrep" style="width:19.5%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.3&#37;</td><td class="dat">48,778</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=35&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for New Mexico with Comparative Graphs'; return true"><b>New Mexico</b></a></td><td class="cnd">Obama</td><td class="per">56.9&#37;</td><td class="dat">472,422</td><td class="bar"><div class="bardem" style="width:5.7%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">41.8&#37;</td><td class="dat">346,832</td><td><div class="barrep" style="width:4.2%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.3&#37;</td><td class="dat">10,904</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=36&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for New York with Comparative Graphs'; return true"><b>New York</b></a></td><td class="cnd">Obama</td><td class="per">62.9&#37;</td><td class="dat">4,804,945</td><td class="bar"><div class="bardem" style="width:58.1%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">36.0&#37;</td><td class="dat">2,752,771</td><td><div class="barrep" style="width:33.3%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.1&#37;</td><td class="dat">83,232</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=37&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for North Carolina with Comparative Graphs'; return true"><b>North Carolina</b></a></td><td class="cnd">Obama</td><td class="per">49.7&#37;</td><td class="dat">2,142,651</td><td class="bar"><div class="bardem" style="width:25.9%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">49.4&#37;</td><td class="dat">2,128,474</td><td><div class="barrep" style="width:25.7%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">0.9&#37;</td><td class="dat">39,664</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=38&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for North Dakota with Comparative Graphs'; return true"><b>North Dakota</b></a></td><td class="cnd">Obama</td><td class="per">44.5&#37;</td><td class="dat">141,403</td><td class="bar"><div class="bardem" style="width:1.7%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">53.2&#37;</td><td class="dat">168,887</td><td><div class="barrep" style="width:2.0%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">2.3&#37;</td><td class="dat">7,448</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=39&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Ohio with Comparative Graphs'; return true"><b>Ohio</b></a></td><td class="cnd">Obama</td><td class="per">51.4&#37;</td><td class="dat">2,940,044</td><td class="bar"><div class="bardem" style="width:35.5%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">46.8&#37;</td><td class="dat">2,677,820</td><td><div class="barrep" style="width:32.4%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.8&#37;</td><td class="dat">103,967</td><td><div class="baroth" style="width:1.3%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=40&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Oklahoma with Comparative Graphs'; return true"><b>Oklahoma</b></a></td><td class="cnd">Obama</td><td class="per">34.4&#37;</td><td class="dat">502,496</td><td class="bar"><div class="bardem" style="width:6.1%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">65.6&#37;</td><td >class="dat">960,165</td><td>		dat">0</td>
+
+<div class="barrep" style="width:11.6%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=41&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Oregon with Comparative Graphs'; return true"><b>Oregon</b></a></td><td class="cnd">Obama</td><td class="per">56.7&#37;</td><td class="dat">1,037,291</td><td class="bar"><div class="bardem" style="width:12.5%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">40.4&#37;</td><td class="dat">738,475</td><td><div class="barrep" style="width:8.9%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">2.9&#37;</td><td class="dat">52,098</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=42&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Pennsylvania with Comparative Graphs'; return true"><b>Pennsylvania</b></a></td><td class="cnd">Obama</td><td class="per">54.5&#37;</td><td class="dat">3,276,363</td><td class="bar"><div class="bardem" style="width:39.6%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">44.2&#37;</td><td class="dat">2,655,885</td><td><div class="barrep" style="width:32.1%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.4&#37;</td><td class="dat">83,228</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=44&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Rhode Island with Comparative Graphs'; return true"><b>Rhode Island</b></a></td><td class="cnd">Obama</td><td class="per">62.9&#37;</td><td class="dat">296,571</td><td class="bar"><div class="bardem" style="width:3.6%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">35.1&#37;</td><td class="dat">165,391</td><td><div class="barrep" style="width:2.0%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">2.1&#37;</td><td class="dat">9,804</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=45&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for South Carolina with Comparative Graphs'; return true"><b>South Carolina</b></a></td><td class="cnd">Obama</td><td class="per">44.9&#37;</td><td class="dat">862,449</td><td class="bar"><div class="bardem" style="width:10.4%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">53.9&#37;</td><td class="dat">1,034,896</td><td><div class="barrep" style="width:12.5%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.2&#37;</td><td class="dat">23,624</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=46&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for South Dakota with Comparative Graphs'; return true"><b>South Dakota</b></a></td><td class="cnd">Obama</td><td class="per">44.7&#37;</td><td class="dat">170,924</td><td class="bar"><div class="bardem" style="width:2.1%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">53.2&#37;</td><td class="dat">203,054</td><td><div class="barrep" style="width:2.5%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">2.1&#37;</td><td class="dat">7,997</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=47&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Tennessee with Comparative Graphs'; return true"><b>Tennessee</b></a></td><td class="cnd">Obama</td><td class="per">41.8&#37;</td><td class="dat">1,087,437</td><td class="bar"><div class="bardem" style="width:13.1%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">56.8&#37;</td><td class="dat">1,479,178</td><td><div class="barrep" style="width:17.9%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.4&#37;</td><td class="dat">35,367</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=48&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Texas with Comparative Graphs'; return true"><b>Texas</b></a></td><td class="cnd">Obama</td><td class="per">43.6&#37;</td><td class="dat">3,528,633</td><td class="bar"><div class="bardem" style="width:42.6%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">55.4&#37;</td><td class="dat">4,479,328</td><td><div class="barrep" style="width:54.1%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.0&#37;</td><td class="dat">79,830</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=49&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Utah with Comparative Graphs'; return true"><b>Utah</b></a></td><td class="cnd">Obama</td><td class="per">34.2&#37;</td><td class="dat">327,670</td><td class="bar"><div class="bardem" style="width:4.0%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">62.2&#37;</td><td class="dat">596,030</td><td><div class="barrep" style="width:7.2%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">3.7&#37;</td><td class="dat">35,296</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=50&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Vermont with Comparative Graphs'; return true"><b>Vermont</b></a></td><td class="cnd">Obama</td><td class="per">67.5&#37;</td><td class="dat">219,262</td><td class="bar"><div class="bardem" style="width:2.6%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">30.4&#37;</td><td class="dat">98,974</td><td><div class="barrep" style="width:1.2%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">2.1&#37;</td><td class="dat">6,810</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=51&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Virginia with Comparative Graphs'; return true"><b>Virginia</b></a></td><td class="cnd">Obama</td><td class="per">52.6&#37;</td><td class="dat">1,959,532</td><td class="bar"><div class="bardem" style="width:23.7%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">46.3&#37;</td><td class="dat">1,725,005</td><td><div class="barrep" style="width:20.8%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.0&#37;</td><td class="dat">38,723</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=53&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Washington with Comparative Graphs'; return true"><b>Washington</b></a></td><td class="cnd">Obama</td><td class="per">57.3&#37;</td><td class="dat">1,750,848</td><td class="bar"><div class="bardem" style="width:21.2%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">40.3&#37;</td><td class="dat">1,229,216</td><td><div class="barrep" style="width:14.9%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">2.4&#37;</td><td class="dat">73,197</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=54&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for West Virginia with Comparative Graphs'; return true"><b>West Virginia</b></a></td><td class="cnd">Obama</td><td class="per">42.5&#37;</td><td class="dat">303,857</td><td class="bar"><div class="bardem" style="width:3.7%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">55.6&#37;</td><td class="dat">397,466</td><td><div class="barrep" style="width:4.8%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.9&#37;</td><td class="dat">13,800</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=55&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Wisconsin with Comparative Graphs'; return true"><b>Wisconsin</b></a></td><td class="cnd">Obama</td><td class="per">56.2&#37;</td><td class="dat">1,677,211</td><td class="bar"><div class="bardem" style="width:20.3%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">42.3&#37;</td><td class="dat">1,262,393</td><td><div class="barrep" style="width:15.3%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">1.5&#37;</td><td class="dat">43,813</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /><table cellpadding="2"><tr><td style="width:100px" rowspan="3"><a href="datagraph.php?year=2008&amp;fips=56&amp;f=0&amp;off=0&amp;elect=0" onmouseover="window.status='Data for Wyoming with Comparative Graphs'; return true"><b>Wyoming</b></a></td><td class="cnd">Obama</td><td class="per">32.5&#37;</td><td class="dat">82,868</td><td class="bar"><div class="bardem" style="width:1.0%">&nbsp;</div></td></tr><tr><td>McCain</td><td class="per">64.8&#37;</td><td class="dat">164,958</td><td><div class="barrep" style="width:2.0%">&nbsp;</div></td></tr><tr><td>Other</td><td class="per">2.7&#37;</td><td class="dat">6,832</td><td><div class="baroth" style="width:1.0%">&nbsp;</div></td></tr></table><br /><br /></div></td></tr></table><br /><div style="text-align:center"><a href = 'national.php?year=2008&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='National Summary Results for 2008'; return true">National Results for 2008</a><br /><br /><a href = "../login.php">Login</a><br /><br />&#169; <i>David Leip 2016 All Rights Reserved</i></div>
+
+</div>
+
+
+
+<script>
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+
+ga('create', 'UA-347045-1', 'auto');
+
+ga('send', 'pageview');
+
+
+
+</script>
+
+</body>
+
+</html>
+
+
+
