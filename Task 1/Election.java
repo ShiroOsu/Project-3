@@ -11,6 +11,7 @@ public class Election{
 		dVotes = new ArrayList<>();
 		rVotes = new ArrayList<>();
 		iVotes = new ArrayList<>();
+		System.out.println("Type in the name of the USA text file...");
 		init();
 	}
 	
