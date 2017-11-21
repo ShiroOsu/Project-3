@@ -20,7 +20,7 @@ public class Region{
 	
 	
 	public static void main(String[] args){
-		Region r = new Region("Square", "center", new Polygon(new In("C:/Users/Niklas/JavaProjects/points.txt")));
+		Region r = new Region("Square", "center", new Polygon(new In("Where your file with coordinates is located")));
 		System.out.println(r);
 		r.draw();
 	}
