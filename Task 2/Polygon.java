@@ -20,7 +20,7 @@ public class Polygon{
 	}
 	
 	public static void main(String[] args){
-		Polygon p = new Polygon(new In("C:/Users/Niklas/JavaProjects/points.txt"));
+		Polygon p = new Polygon(new In("Where your file with coordinates is located"));
 		p.draw();
 	}
 }
